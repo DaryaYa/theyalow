@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1300px;
+}
+
+.container-top {
+    background-image: url('assets/Layer 20.gif');
+    width: 1300px;
+    height: 566px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 139px;
+    margin-right: 140px;
+    padding-top: 27px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 85px;
+}
+
+.logo span {
+    font-size: 41px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    text-align: center;
+    ;
+}
+
+ul {
+    box-shadow: -6px -5px rgba(245, 197, 5, 0.27), -10px -8px rgba(245, 197, 5, 0.27);
+}
+
+ul li {
+    display: inline-block;
+    background-color: #f5c505;
+    width: 151px;
+    text-align: center;
+    height: 40px;
+    margin-left: -3px;
+}
+
+nav a {
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+    text-align: center;
+}
