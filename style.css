@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -22,7 +23,7 @@ header {
     justify-content: space-between;
     margin-left: 139px;
     margin-right: 140px;
-    padding-top: 27px;
+    padding-top: 20px;
 }
 
 .logo {
@@ -31,20 +32,24 @@ header {
 
 .logo img {
     width: 85px;
+    height: 85px;
+    margin-top: 22px;
 }
 
 .logo span {
-    font-size: 41px;
+    font-size: 38px;
     letter-spacing: 0px;
     color: #ffffff;
     font-family: "Lucida Sans";
     font-style: italic;
     text-align: center;
-    ;
+    margin-top: 55px;
 }
 
 ul {
     box-shadow: -6px -5px rgba(245, 197, 5, 0.27), -10px -8px rgba(245, 197, 5, 0.27);
+    height: 40px;
+    margin-top: 51px;
 }
 
 ul li {
@@ -52,8 +57,9 @@ ul li {
     background-color: #f5c505;
     width: 151px;
     text-align: center;
-    height: 40px;
     margin-left: -3px;
+    height: 39px;
+    padding-top: 6px;
 }
 
 nav a {
@@ -61,5 +67,37 @@ nav a {
     letter-spacing: 0px;
     color: #9b7d08;
     font-family: "Segoe WP";
+}
+
+li img {
+    height: 19px;
+}
+
+.player {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+    align-items: center;
+}
+
+.playerImg img {
+    width: 550px;
+    height: 327px;
+    margin-left: 169px;
+}
+
+.ctrl {
+    margin-right: 158px;
+}
+
+.ctrl p {
+    font-size: 60px;
+    color: #f5c506;
+    font-family: "Asap", sans-serif;
+    font-weight: 400;
     text-align: center;
+}
+
+.ctrl p:last-child {
+    color: white;
 }
