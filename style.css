@@ -182,11 +182,12 @@ h1 {
     font-family: "PT Sans Reg";
     font-weight: 400;
     text-transform: uppercase;
-    padding-top: 42px;
+    padding-top: 32px;
 }
 
 .three-blocks {
     display: flex;
+    margin-top: -15px;
 }
 
 .block-text {
@@ -196,13 +197,26 @@ h1 {
 }
 
 .block-text p {
-    padding: 25px 38px;
+    padding: 15px 30px;
     font-size: 29px;
     letter-spacing: 0px;
-    line-height: 35px;
+    line-height: 39px;
     color: #ffffff;
     font-family: "Sagoe Light";
     font-weight: 300;
+}
+
+.block-text div {
+    position: relative;
+    margin-top: -23px;
+}
+
+.plus {
+    color: #ffffff;
+    font-family: "PT Sans Reg";
+    font-size: 25px;
+    position: absolute;
+    right: 14px;
 }
 
 .block-bird {
@@ -210,18 +224,96 @@ h1 {
     width: 329px;
     height: 233px;
     margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.block-bird-img {
-    height: 134px;
-    width: 164px;
-    margin: auto;
+.number {
+    color: #ffffff;
+    font-family: "Sagoe Light";
+    font-size: 25px;
+    position: absolute;
+    left: 200px;
+    bottom: 5px;
+}
+
+.cross {
+    color: #ffffff;
+    font-family: "PT Sans Reg";
+    font-size: 25px;
+    position: absolute;
+    left: 220px;
+    top: 11px;
+}
+
+.block-bird div {
+    position: relative;
+}
+
+.date {
+    height: 86px;
+    width: 113px;
+    background-color: #ddb101;
+    margin-top: -3px;
+    text-align: center;
+}
+
+.day {
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.month {
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "Segoe WP";
+}
+
+.range {
+    width: 896px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #fae282;
+    opacity: 30%;
+    margin: 45px auto 22px;
+}
+
+.thumb {
+    width: 197px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #ec9e03;
+    position: relative;
+    left: 255px;
 }
 
 .info {
     max-width: 1300px;
     height: 500px;
     background: url("assets/Layer32.png")
+}
+
+.info-text {
+    font-size: 43px;
+    letter-spacing: 0px;
+    color: #f5c506;
+    font-family: "PT Sans Reg";
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 36px;
+}
+
+.info-content {
+    display: flex;
 }
 
 .footer {
